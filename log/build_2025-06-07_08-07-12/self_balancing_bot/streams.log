@@ -1,0 +1,44 @@
+[5.980s] Invoking command in '/home/salma/ros2_sb/src/self_balancing_bot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/salma/ros2_sb/build/self_balancing_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/salma/ros2_sb/install/self_balancing_bot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/self_balancing_bot build --build-base /home/salma/ros2_sb/build/self_balancing_bot/build install --record /home/salma/ros2_sb/build/self_balancing_bot/install.log --single-version-externally-managed install_data
+[7.448s] running egg_info
+[7.450s] creating ../../build/self_balancing_bot/self_balancing_bot.egg-info
+[7.564s] writing ../../build/self_balancing_bot/self_balancing_bot.egg-info/PKG-INFO
+[7.565s] writing dependency_links to ../../build/self_balancing_bot/self_balancing_bot.egg-info/dependency_links.txt
+[7.565s] writing entry points to ../../build/self_balancing_bot/self_balancing_bot.egg-info/entry_points.txt
+[7.566s] writing requirements to ../../build/self_balancing_bot/self_balancing_bot.egg-info/requires.txt
+[7.568s] writing top-level names to ../../build/self_balancing_bot/self_balancing_bot.egg-info/top_level.txt
+[7.568s] writing manifest file '../../build/self_balancing_bot/self_balancing_bot.egg-info/SOURCES.txt'
+[7.819s] reading manifest file '../../build/self_balancing_bot/self_balancing_bot.egg-info/SOURCES.txt'
+[7.820s] adding license file 'LICENSE'
+[7.822s] writing manifest file '../../build/self_balancing_bot/self_balancing_bot.egg-info/SOURCES.txt'
+[7.823s] running build
+[7.826s] running build_py
+[7.826s] creating /home/salma/ros2_sb/build/self_balancing_bot/build
+[7.827s] creating /home/salma/ros2_sb/build/self_balancing_bot/build/lib
+[7.827s] creating /home/salma/ros2_sb/build/self_balancing_bot/build/lib/self_balancing_bot
+[7.828s] copying self_balancing_bot/balance_controller.py -> /home/salma/ros2_sb/build/self_balancing_bot/build/lib/self_balancing_bot
+[7.828s] copying self_balancing_bot/__init__.py -> /home/salma/ros2_sb/build/self_balancing_bot/build/lib/self_balancing_bot
+[7.829s] running install
+[7.871s] running install_lib
+[8.021s] creating /home/salma/ros2_sb/install/self_balancing_bot/lib/python3.12/site-packages/self_balancing_bot
+[8.022s] copying /home/salma/ros2_sb/build/self_balancing_bot/build/lib/self_balancing_bot/balance_controller.py -> /home/salma/ros2_sb/install/self_balancing_bot/lib/python3.12/site-packages/self_balancing_bot
+[8.023s] copying /home/salma/ros2_sb/build/self_balancing_bot/build/lib/self_balancing_bot/__init__.py -> /home/salma/ros2_sb/install/self_balancing_bot/lib/python3.12/site-packages/self_balancing_bot
+[8.025s] byte-compiling /home/salma/ros2_sb/install/self_balancing_bot/lib/python3.12/site-packages/self_balancing_bot/balance_controller.py to balance_controller.cpython-312.pyc
+[8.029s] byte-compiling /home/salma/ros2_sb/install/self_balancing_bot/lib/python3.12/site-packages/self_balancing_bot/__init__.py to __init__.cpython-312.pyc
+[8.030s] running install_data
+[8.033s] creating /home/salma/ros2_sb/install/self_balancing_bot/share/ament_index
+[8.034s] creating /home/salma/ros2_sb/install/self_balancing_bot/share/ament_index/resource_index
+[8.034s] creating /home/salma/ros2_sb/install/self_balancing_bot/share/ament_index/resource_index/packages
+[8.035s] copying resource/self_balancing_bot -> /home/salma/ros2_sb/install/self_balancing_bot/share/ament_index/resource_index/packages
+[8.038s] copying package.xml -> /home/salma/ros2_sb/install/self_balancing_bot/share/self_balancing_bot
+[8.038s] creating /home/salma/ros2_sb/install/self_balancing_bot/share/self_balancing_bot/launch
+[8.039s] copying launch/gazebo_bridge.launch.py -> /home/salma/ros2_sb/install/self_balancing_bot/share/self_balancing_bot/launch
+[8.040s] creating /home/salma/ros2_sb/install/self_balancing_bot/share/self_balancing_bot/worlds
+[8.041s] copying worlds/world.sdf -> /home/salma/ros2_sb/install/self_balancing_bot/share/self_balancing_bot/worlds
+[8.042s] creating /home/salma/ros2_sb/install/self_balancing_bot/share/self_balancing_bot/urdf
+[8.042s] copying urdf/self_balancing_bot.sdf -> /home/salma/ros2_sb/install/self_balancing_bot/share/self_balancing_bot/urdf
+[8.043s] running install_egg_info
+[8.197s] Copying ../../build/self_balancing_bot/self_balancing_bot.egg-info to /home/salma/ros2_sb/install/self_balancing_bot/lib/python3.12/site-packages/self_balancing_bot-0.0.0-py3.12.egg-info
+[8.202s] running install_scripts
+[9.203s] Installing balance_controller script to /home/salma/ros2_sb/install/self_balancing_bot/lib/self_balancing_bot
+[9.204s] writing list of installed files to '/home/salma/ros2_sb/build/self_balancing_bot/install.log'
+[9.331s] Invoked command in '/home/salma/ros2_sb/src/self_balancing_bot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/salma/ros2_sb/build/self_balancing_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/salma/ros2_sb/install/self_balancing_bot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/self_balancing_bot build --build-base /home/salma/ros2_sb/build/self_balancing_bot/build install --record /home/salma/ros2_sb/build/self_balancing_bot/install.log --single-version-externally-managed install_data

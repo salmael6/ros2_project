@@ -1,0 +1,23 @@
+[7.661s] Invoking command in '/home/salma/ros2_sb/src/maze_navigator': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/salma/ros2_sb/build/maze_navigator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/salma/ros2_sb/install/maze_navigator/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/maze_navigator build --build-base /home/salma/ros2_sb/build/maze_navigator/build install --record /home/salma/ros2_sb/build/maze_navigator/install.log --single-version-externally-managed install_data
+[9.595s] running egg_info
+[9.799s] writing ../../build/maze_navigator/maze_navigator.egg-info/PKG-INFO
+[9.800s] writing dependency_links to ../../build/maze_navigator/maze_navigator.egg-info/dependency_links.txt
+[9.801s] writing entry points to ../../build/maze_navigator/maze_navigator.egg-info/entry_points.txt
+[9.802s] writing requirements to ../../build/maze_navigator/maze_navigator.egg-info/requires.txt
+[9.803s] writing top-level names to ../../build/maze_navigator/maze_navigator.egg-info/top_level.txt
+[10.201s] reading manifest file '../../build/maze_navigator/maze_navigator.egg-info/SOURCES.txt'
+[10.207s] writing manifest file '../../build/maze_navigator/maze_navigator.egg-info/SOURCES.txt'
+[10.208s] running build
+[10.209s] running build_py
+[10.212s] running install
+[10.263s] running install_lib
+[10.457s] running install_data
+[10.458s] running install_egg_info
+[10.623s] removing '/home/salma/ros2_sb/install/maze_navigator/lib/python3.12/site-packages/maze_navigator-0.0.0-py3.12.egg-info' (and everything under it)
+[10.624s] Copying ../../build/maze_navigator/maze_navigator.egg-info to /home/salma/ros2_sb/install/maze_navigator/lib/python3.12/site-packages/maze_navigator-0.0.0-py3.12.egg-info
+[10.628s] running install_scripts
+[11.507s] Installing astar_planner_node script to /home/salma/ros2_sb/install/maze_navigator/lib/maze_navigator
+[11.508s] Installing occupancy_grid_node script to /home/salma/ros2_sb/install/maze_navigator/lib/maze_navigator
+[11.509s] Installing path_follower_node script to /home/salma/ros2_sb/install/maze_navigator/lib/maze_navigator
+[11.510s] writing list of installed files to '/home/salma/ros2_sb/build/maze_navigator/install.log'
+[11.644s] Invoked command in '/home/salma/ros2_sb/src/maze_navigator' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/salma/ros2_sb/build/maze_navigator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/salma/ros2_sb/install/maze_navigator/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/maze_navigator build --build-base /home/salma/ros2_sb/build/maze_navigator/build install --record /home/salma/ros2_sb/build/maze_navigator/install.log --single-version-externally-managed install_data

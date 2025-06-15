@@ -1,0 +1,227 @@
+[0.617s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.618s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x787a7159ce60>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x787a7159cbc0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x787a7159cbc0>>, mixin_verb=('build',))
+[0.816s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.817s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.817s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.817s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.817s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.818s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.818s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/salma/ros2_sb'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/maze_navigator) by extensions ['ignore', 'ignore_ament_install']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/maze_navigator) by extension 'ignore'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/maze_navigator) by extension 'ignore_ament_install'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/maze_navigator) by extensions ['colcon_pkg']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/maze_navigator) by extension 'colcon_pkg'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/maze_navigator) by extensions ['colcon_meta']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/maze_navigator) by extension 'colcon_meta'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/maze_navigator) by extensions ['ros']
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/maze_navigator) by extension 'ros'
+[0.972s] DEBUG:colcon.colcon_core.package_identification:Package 'src/maze_navigator' with type 'ros.ament_python' and name 'maze_navigator'
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/self_balancing_bot) by extensions ['ignore', 'ignore_ament_install']
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/self_balancing_bot) by extension 'ignore'
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/self_balancing_bot) by extension 'ignore_ament_install'
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(src/self_balancing_bot) by extensions ['colcon_pkg']
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(src/self_balancing_bot) by extension 'colcon_pkg'
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(src/self_balancing_bot) by extensions ['colcon_meta']
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(src/self_balancing_bot) by extension 'colcon_meta'
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(src/self_balancing_bot) by extensions ['ros']
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(src/self_balancing_bot) by extension 'ros'
+[0.977s] DEBUG:colcon.colcon_core.package_identification:Package 'src/self_balancing_bot' with type 'ros.ament_python' and name 'self_balancing_bot'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_transformations) by extensions ['ignore', 'ignore_ament_install']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_transformations) by extension 'ignore'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_transformations) by extension 'ignore_ament_install'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_transformations) by extensions ['colcon_pkg']
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_transformations) by extension 'colcon_pkg'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_transformations) by extensions ['colcon_meta']
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_transformations) by extension 'colcon_meta'
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_transformations) by extensions ['ros']
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_transformations) by extension 'ros'
+[0.982s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tf_transformations' with type 'ros.ament_python' and name 'tf_transformations'
+[0.982s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.982s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.982s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.983s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.983s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.077s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.077s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.087s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/salma/ros2_sb/install
+[1.097s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 337 installed packages in /opt/ros/jazzy
+[1.101s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.390s] Level 5:colcon.colcon_core.verb:set package 'maze_navigator' build argument 'cmake_args' from command line to 'None'
+[1.391s] Level 5:colcon.colcon_core.verb:set package 'maze_navigator' build argument 'cmake_target' from command line to 'None'
+[1.391s] Level 5:colcon.colcon_core.verb:set package 'maze_navigator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.391s] Level 5:colcon.colcon_core.verb:set package 'maze_navigator' build argument 'cmake_clean_cache' from command line to 'False'
+[1.391s] Level 5:colcon.colcon_core.verb:set package 'maze_navigator' build argument 'cmake_clean_first' from command line to 'False'
+[1.391s] Level 5:colcon.colcon_core.verb:set package 'maze_navigator' build argument 'cmake_force_configure' from command line to 'False'
+[1.392s] Level 5:colcon.colcon_core.verb:set package 'maze_navigator' build argument 'ament_cmake_args' from command line to 'None'
+[1.392s] Level 5:colcon.colcon_core.verb:set package 'maze_navigator' build argument 'catkin_cmake_args' from command line to 'None'
+[1.392s] Level 5:colcon.colcon_core.verb:set package 'maze_navigator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.392s] DEBUG:colcon.colcon_core.verb:Building package 'maze_navigator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/salma/ros2_sb/build/maze_navigator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/salma/ros2_sb/install/maze_navigator', 'merge_install': False, 'path': '/home/salma/ros2_sb/src/maze_navigator', 'symlink_install': False, 'test_result_base': None}
+[1.394s] Level 5:colcon.colcon_core.verb:set package 'self_balancing_bot' build argument 'cmake_args' from command line to 'None'
+[1.394s] Level 5:colcon.colcon_core.verb:set package 'self_balancing_bot' build argument 'cmake_target' from command line to 'None'
+[1.394s] Level 5:colcon.colcon_core.verb:set package 'self_balancing_bot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.395s] Level 5:colcon.colcon_core.verb:set package 'self_balancing_bot' build argument 'cmake_clean_cache' from command line to 'False'
+[1.395s] Level 5:colcon.colcon_core.verb:set package 'self_balancing_bot' build argument 'cmake_clean_first' from command line to 'False'
+[1.395s] Level 5:colcon.colcon_core.verb:set package 'self_balancing_bot' build argument 'cmake_force_configure' from command line to 'False'
+[1.395s] Level 5:colcon.colcon_core.verb:set package 'self_balancing_bot' build argument 'ament_cmake_args' from command line to 'None'
+[1.395s] Level 5:colcon.colcon_core.verb:set package 'self_balancing_bot' build argument 'catkin_cmake_args' from command line to 'None'
+[1.395s] Level 5:colcon.colcon_core.verb:set package 'self_balancing_bot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.396s] DEBUG:colcon.colcon_core.verb:Building package 'self_balancing_bot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/salma/ros2_sb/build/self_balancing_bot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/salma/ros2_sb/install/self_balancing_bot', 'merge_install': False, 'path': '/home/salma/ros2_sb/src/self_balancing_bot', 'symlink_install': False, 'test_result_base': None}
+[1.397s] Level 5:colcon.colcon_core.verb:set package 'tf_transformations' build argument 'cmake_args' from command line to 'None'
+[1.397s] Level 5:colcon.colcon_core.verb:set package 'tf_transformations' build argument 'cmake_target' from command line to 'None'
+[1.397s] Level 5:colcon.colcon_core.verb:set package 'tf_transformations' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.397s] Level 5:colcon.colcon_core.verb:set package 'tf_transformations' build argument 'cmake_clean_cache' from command line to 'False'
+[1.398s] Level 5:colcon.colcon_core.verb:set package 'tf_transformations' build argument 'cmake_clean_first' from command line to 'False'
+[1.398s] Level 5:colcon.colcon_core.verb:set package 'tf_transformations' build argument 'cmake_force_configure' from command line to 'False'
+[1.398s] Level 5:colcon.colcon_core.verb:set package 'tf_transformations' build argument 'ament_cmake_args' from command line to 'None'
+[1.398s] Level 5:colcon.colcon_core.verb:set package 'tf_transformations' build argument 'catkin_cmake_args' from command line to 'None'
+[1.398s] Level 5:colcon.colcon_core.verb:set package 'tf_transformations' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.398s] DEBUG:colcon.colcon_core.verb:Building package 'tf_transformations' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/salma/ros2_sb/build/tf_transformations', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/salma/ros2_sb/install/tf_transformations', 'merge_install': False, 'path': '/home/salma/ros2_sb/src/tf_transformations', 'symlink_install': False, 'test_result_base': None}
+[1.399s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.402s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.402s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/salma/ros2_sb/src/maze_navigator' with build type 'ament_python'
+[1.403s] Level 1:colcon.colcon_core.shell:create_environment_hook('maze_navigator', 'ament_prefix_path')
+[1.413s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.414s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/salma/ros2_sb/install/maze_navigator/share/maze_navigator/hook/ament_prefix_path.ps1'
+[1.417s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/salma/ros2_sb/install/maze_navigator/share/maze_navigator/hook/ament_prefix_path.dsv'
+[1.419s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/salma/ros2_sb/install/maze_navigator/share/maze_navigator/hook/ament_prefix_path.sh'
+[1.422s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.422s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.441s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/salma/ros2_sb/src/self_balancing_bot' with build type 'ament_python'
+[1.441s] Level 1:colcon.colcon_core.shell:create_environment_hook('self_balancing_bot', 'ament_prefix_path')
+[1.442s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/salma/ros2_sb/install/self_balancing_bot/share/self_balancing_bot/hook/ament_prefix_path.ps1'
+[1.445s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/salma/ros2_sb/install/self_balancing_bot/share/self_balancing_bot/hook/ament_prefix_path.dsv'
+[1.448s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/salma/ros2_sb/install/self_balancing_bot/share/self_balancing_bot/hook/ament_prefix_path.sh'
+[1.450s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.450s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.468s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/salma/ros2_sb/src/tf_transformations' with build type 'ament_python'
+[1.469s] Level 1:colcon.colcon_core.shell:create_environment_hook('tf_transformations', 'ament_prefix_path')
+[1.469s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/salma/ros2_sb/install/tf_transformations/share/tf_transformations/hook/ament_prefix_path.ps1'
+[1.472s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/salma/ros2_sb/install/tf_transformations/share/tf_transformations/hook/ament_prefix_path.dsv'
+[1.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/salma/ros2_sb/install/tf_transformations/share/tf_transformations/hook/ament_prefix_path.sh'
+[1.476s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.477s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.693s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/salma/ros2_sb/src/maze_navigator'
+[2.694s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.694s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.804s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/salma/ros2_sb/src/self_balancing_bot'
+[3.805s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.805s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.155s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/salma/ros2_sb/src/tf_transformations'
+[5.156s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.157s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.253s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/salma/ros2_sb/src/maze_navigator': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/salma/ros2_sb/build/maze_navigator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/salma/ros2_sb/install/maze_navigator/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/maze_navigator build --build-base /home/salma/ros2_sb/build/maze_navigator/build install --record /home/salma/ros2_sb/build/maze_navigator/install.log --single-version-externally-managed install_data
+[9.372s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/salma/ros2_sb/src/self_balancing_bot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/salma/ros2_sb/build/self_balancing_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/salma/ros2_sb/install/self_balancing_bot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/self_balancing_bot build --build-base /home/salma/ros2_sb/build/self_balancing_bot/build install --record /home/salma/ros2_sb/build/self_balancing_bot/install.log --single-version-externally-managed install_data
+[9.434s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/salma/ros2_sb/src/tf_transformations': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/salma/ros2_sb/build/tf_transformations/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/salma/ros2_sb/install/tf_transformations/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tf_transformations build --build-base /home/salma/ros2_sb/build/tf_transformations/build install --record /home/salma/ros2_sb/build/tf_transformations/install.log --single-version-externally-managed install_data
+[13.431s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/salma/ros2_sb/src/maze_navigator' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/salma/ros2_sb/build/maze_navigator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/salma/ros2_sb/install/maze_navigator/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/maze_navigator build --build-base /home/salma/ros2_sb/build/maze_navigator/build install --record /home/salma/ros2_sb/build/maze_navigator/install.log --single-version-externally-managed install_data
+[13.443s] Level 1:colcon.colcon_core.environment:checking '/home/salma/ros2_sb/install/maze_navigator' for CMake module files
+[13.446s] Level 1:colcon.colcon_core.environment:checking '/home/salma/ros2_sb/install/maze_navigator' for CMake config files
+[13.451s] Level 1:colcon.colcon_core.environment:checking '/home/salma/ros2_sb/install/maze_navigator/lib'
+[13.453s] Level 1:colcon.colcon_core.environment:checking '/home/salma/ros2_sb/install/maze_navigator/bin'
+[13.453s] Level 1:colcon.colcon_core.environment:checking '/home/salma/ros2_sb/install/maze_navigator/lib/pkgconfig/maze_navigator.pc'
+[13.455s] Level 1:colcon.colcon_core.environment:checking '/home/salma/ros2_sb/install/maze_navigator/lib/python3.12/site-packages'
+[13.456s] Level 1:colcon.colcon_core.shell:create_environment_hook('maze_navigator', 'pythonpath')
+[13.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/salma/ros2_sb/install/maze_navigator/share/maze_navigator/hook/pythonpath.ps1'
+[13.459s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/salma/ros2_sb/install/maze_navigator/share/maze_navigator/hook/pythonpath.dsv'
+[13.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/salma/ros2_sb/install/maze_navigator/share/maze_navigator/hook/pythonpath.sh'
+[13.462s] Level 1:colcon.colcon_core.environment:checking '/home/salma/ros2_sb/install/maze_navigator/bin'
+[13.463s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(maze_navigator)
+[13.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/salma/ros2_sb/install/maze_navigator/share/maze_navigator/package.ps1'
+[13.466s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/salma/ros2_sb/install/maze_navigator/share/maze_navigator/package.dsv'
+[13.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/salma/ros2_sb/install/maze_navigator/share/maze_navigator/package.sh'
+[13.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/salma/ros2_sb/install/maze_navigator/share/maze_navigator/package.bash'
+[13.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/salma/ros2_sb/install/maze_navigator/share/maze_navigator/package.zsh'
+[13.478s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/salma/ros2_sb/install/maze_navigator/share/colcon-core/packages/maze_navigator)
+[13.483s] Level 1:colcon.colcon_core.environment:checking '/home/salma/ros2_sb/install/self_balancing_bot' for CMake module files
+[13.487s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/salma/ros2_sb/src/self_balancing_bot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/salma/ros2_sb/build/self_balancing_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/salma/ros2_sb/install/self_balancing_bot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/self_balancing_bot build --build-base /home/salma/ros2_sb/build/self_balancing_bot/build install --record /home/salma/ros2_sb/build/self_balancing_bot/install.log --single-version-externally-managed install_data
+[13.489s] Level 1:colcon.colcon_core.environment:checking '/home/salma/ros2_sb/install/self_balancing_bot' for CMake config files
+[13.493s] Level 1:colcon.colcon_core.environment:checking '/home/salma/ros2_sb/install/self_balancing_bot/lib'
+[13.494s] Level 1:colcon.colcon_core.environment:checking '/home/salma/ros2_sb/install/self_balancing_bot/bin'
+[13.494s] Level 1:colcon.colcon_core.environment:checking '/home/salma/ros2_sb/install/self_balancing_bot/lib/pkgconfig/self_balancing_bot.pc'
+[13.496s] Level 1:colcon.colcon_core.environment:checking '/home/salma/ros2_sb/install/self_balancing_bot/lib/python3.12/site-packages'
+[13.497s] Level 1:colcon.colcon_core.shell:create_environment_hook('self_balancing_bot', 'pythonpath')
+[13.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/salma/ros2_sb/install/self_balancing_bot/share/self_balancing_bot/hook/pythonpath.ps1'
+[13.499s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/salma/ros2_sb/install/self_balancing_bot/share/self_balancing_bot/hook/pythonpath.dsv'
+[13.501s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/salma/ros2_sb/install/self_balancing_bot/share/self_balancing_bot/hook/pythonpath.sh'
+[13.504s] Level 1:colcon.colcon_core.environment:checking '/home/salma/ros2_sb/install/self_balancing_bot/bin'
+[13.504s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(self_balancing_bot)
+[13.505s] INFO:colcon.colcon_core.shell:Creating package script '/home/salma/ros2_sb/install/self_balancing_bot/share/self_balancing_bot/package.ps1'
+[13.508s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/salma/ros2_sb/install/self_balancing_bot/share/self_balancing_bot/package.dsv'
+[13.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/salma/ros2_sb/install/self_balancing_bot/share/self_balancing_bot/package.sh'
+[13.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/salma/ros2_sb/install/self_balancing_bot/share/self_balancing_bot/package.bash'
+[13.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/salma/ros2_sb/install/self_balancing_bot/share/self_balancing_bot/package.zsh'
+[13.516s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/salma/ros2_sb/install/self_balancing_bot/share/colcon-core/packages/self_balancing_bot)
+[13.620s] Level 1:colcon.colcon_core.environment:checking '/home/salma/ros2_sb/install/tf_transformations' for CMake module files
+[13.622s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/salma/ros2_sb/src/tf_transformations' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/salma/ros2_sb/build/tf_transformations/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/salma/ros2_sb/install/tf_transformations/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tf_transformations build --build-base /home/salma/ros2_sb/build/tf_transformations/build install --record /home/salma/ros2_sb/build/tf_transformations/install.log --single-version-externally-managed install_data
+[13.624s] Level 1:colcon.colcon_core.environment:checking '/home/salma/ros2_sb/install/tf_transformations' for CMake config files
+[13.626s] Level 1:colcon.colcon_core.environment:checking '/home/salma/ros2_sb/install/tf_transformations/lib'
+[13.626s] Level 1:colcon.colcon_core.environment:checking '/home/salma/ros2_sb/install/tf_transformations/bin'
+[13.626s] Level 1:colcon.colcon_core.environment:checking '/home/salma/ros2_sb/install/tf_transformations/lib/pkgconfig/tf_transformations.pc'
+[13.627s] Level 1:colcon.colcon_core.environment:checking '/home/salma/ros2_sb/install/tf_transformations/lib/python3.12/site-packages'
+[13.628s] Level 1:colcon.colcon_core.shell:create_environment_hook('tf_transformations', 'pythonpath')
+[13.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/salma/ros2_sb/install/tf_transformations/share/tf_transformations/hook/pythonpath.ps1'
+[13.631s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/salma/ros2_sb/install/tf_transformations/share/tf_transformations/hook/pythonpath.dsv'
+[13.632s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/salma/ros2_sb/install/tf_transformations/share/tf_transformations/hook/pythonpath.sh'
+[13.634s] Level 1:colcon.colcon_core.environment:checking '/home/salma/ros2_sb/install/tf_transformations/bin'
+[13.634s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tf_transformations)
+[13.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/salma/ros2_sb/install/tf_transformations/share/tf_transformations/package.ps1'
+[13.637s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/salma/ros2_sb/install/tf_transformations/share/tf_transformations/package.dsv'
+[13.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/salma/ros2_sb/install/tf_transformations/share/tf_transformations/package.sh'
+[13.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/salma/ros2_sb/install/tf_transformations/share/tf_transformations/package.bash'
+[13.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/salma/ros2_sb/install/tf_transformations/share/tf_transformations/package.zsh'
+[13.644s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/salma/ros2_sb/install/tf_transformations/share/colcon-core/packages/tf_transformations)
+[13.645s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[13.647s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[13.647s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[13.647s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[13.671s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[13.671s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[13.672s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[13.737s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[13.738s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/salma/ros2_sb/install/local_setup.ps1'
+[13.741s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/salma/ros2_sb/install/_local_setup_util_ps1.py'
+[13.746s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/salma/ros2_sb/install/setup.ps1'
+[13.751s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/salma/ros2_sb/install/local_setup.sh'
+[13.753s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/salma/ros2_sb/install/_local_setup_util_sh.py'
+[13.756s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/salma/ros2_sb/install/setup.sh'
+[13.761s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/salma/ros2_sb/install/local_setup.bash'
+[13.762s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/salma/ros2_sb/install/setup.bash'
+[13.767s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/salma/ros2_sb/install/local_setup.zsh'
+[13.769s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/salma/ros2_sb/install/setup.zsh'

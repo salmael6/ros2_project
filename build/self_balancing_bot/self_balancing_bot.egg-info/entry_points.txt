@@ -1,0 +1,6 @@
+[console_scripts]
+balance_controller = self_balancing_bot.balance_controller:main
+dynamic_tf_publisher = self_balancing_bot.dynamic_tf_publisher:main
+map_publisher = self_balancing_bot.map_publisher:main
+path_publisher = self_balancing_bot.path_publisher:main
+static_map_publisher = self_balancing_bot.static_map_publisher:main

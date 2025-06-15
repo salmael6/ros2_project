@@ -1,0 +1,23 @@
+[7.366s] Invoking command in '/home/salma/ros2_sb/src/self_balancing_bot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/salma/ros2_sb/build/self_balancing_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/salma/ros2_sb/install/self_balancing_bot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/self_balancing_bot build --build-base /home/salma/ros2_sb/build/self_balancing_bot/build install --record /home/salma/ros2_sb/build/self_balancing_bot/install.log --single-version-externally-managed install_data
+[8.917s] running egg_info
+[9.035s] writing ../../build/self_balancing_bot/self_balancing_bot.egg-info/PKG-INFO
+[9.036s] writing dependency_links to ../../build/self_balancing_bot/self_balancing_bot.egg-info/dependency_links.txt
+[9.037s] writing entry points to ../../build/self_balancing_bot/self_balancing_bot.egg-info/entry_points.txt
+[9.038s] writing requirements to ../../build/self_balancing_bot/self_balancing_bot.egg-info/requires.txt
+[9.039s] writing top-level names to ../../build/self_balancing_bot/self_balancing_bot.egg-info/top_level.txt
+[9.287s] reading manifest file '../../build/self_balancing_bot/self_balancing_bot.egg-info/SOURCES.txt'
+[9.288s] adding license file 'LICENSE'
+[9.291s] writing manifest file '../../build/self_balancing_bot/self_balancing_bot.egg-info/SOURCES.txt'
+[9.292s] running build
+[9.293s] running build_py
+[9.294s] running install
+[9.327s] running install_lib
+[9.457s] running install_data
+[9.458s] copying launch/gazebo_bridge.launch.py -> /home/salma/ros2_sb/install/self_balancing_bot/share/self_balancing_bot/launch
+[9.459s] running install_egg_info
+[9.592s] removing '/home/salma/ros2_sb/install/self_balancing_bot/lib/python3.12/site-packages/self_balancing_bot-0.0.0-py3.12.egg-info' (and everything under it)
+[9.593s] Copying ../../build/self_balancing_bot/self_balancing_bot.egg-info to /home/salma/ros2_sb/install/self_balancing_bot/lib/python3.12/site-packages/self_balancing_bot-0.0.0-py3.12.egg-info
+[9.599s] running install_scripts
+[10.616s] Installing balance_controller script to /home/salma/ros2_sb/install/self_balancing_bot/lib/self_balancing_bot
+[10.618s] writing list of installed files to '/home/salma/ros2_sb/build/self_balancing_bot/install.log'
+[10.773s] Invoked command in '/home/salma/ros2_sb/src/self_balancing_bot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/salma/ros2_sb/build/self_balancing_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/salma/ros2_sb/install/self_balancing_bot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/self_balancing_bot build --build-base /home/salma/ros2_sb/build/self_balancing_bot/build install --record /home/salma/ros2_sb/build/self_balancing_bot/install.log --single-version-externally-managed install_data

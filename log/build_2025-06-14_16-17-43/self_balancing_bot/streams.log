@@ -1,0 +1,30 @@
+[7.477s] Invoking command in '/home/salma/ros2_sb/src/self_balancing_bot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/salma/ros2_sb/build/self_balancing_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/salma/ros2_sb/install/self_balancing_bot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/self_balancing_bot build --build-base /home/salma/ros2_sb/build/self_balancing_bot/build install --record /home/salma/ros2_sb/build/self_balancing_bot/install.log --single-version-externally-managed install_data
+[9.186s] running egg_info
+[9.357s] writing ../../build/self_balancing_bot/self_balancing_bot.egg-info/PKG-INFO
+[9.359s] writing dependency_links to ../../build/self_balancing_bot/self_balancing_bot.egg-info/dependency_links.txt
+[9.361s] writing entry points to ../../build/self_balancing_bot/self_balancing_bot.egg-info/entry_points.txt
+[9.364s] writing requirements to ../../build/self_balancing_bot/self_balancing_bot.egg-info/requires.txt
+[9.366s] writing top-level names to ../../build/self_balancing_bot/self_balancing_bot.egg-info/top_level.txt
+[9.757s] reading manifest file '../../build/self_balancing_bot/self_balancing_bot.egg-info/SOURCES.txt'
+[9.759s] adding license file 'LICENSE'
+[9.763s] writing manifest file '../../build/self_balancing_bot/self_balancing_bot.egg-info/SOURCES.txt'
+[9.764s] running build
+[9.765s] running build_py
+[9.766s] copying self_balancing_bot/static_map_publisher.py -> /home/salma/ros2_sb/build/self_balancing_bot/build/lib/self_balancing_bot
+[9.767s] running install
+[9.815s] running install_lib
+[10.013s] copying /home/salma/ros2_sb/build/self_balancing_bot/build/lib/self_balancing_bot/static_map_publisher.py -> /home/salma/ros2_sb/install/self_balancing_bot/lib/python3.12/site-packages/self_balancing_bot
+[10.017s] byte-compiling /home/salma/ros2_sb/install/self_balancing_bot/lib/python3.12/site-packages/self_balancing_bot/static_map_publisher.py to static_map_publisher.cpython-312.pyc
+[10.022s] running install_data
+[10.023s] copying launch/gazebo_bridge.launch.py -> /home/salma/ros2_sb/install/self_balancing_bot/share/self_balancing_bot/launch
+[10.025s] copying worlds/map.pgm -> /home/salma/ros2_sb/install/self_balancing_bot/share/self_balancing_bot/worlds
+[10.029s] copying worlds/map.yaml -> /home/salma/ros2_sb/install/self_balancing_bot/share/self_balancing_bot/worlds
+[10.033s] running install_egg_info
+[10.200s] removing '/home/salma/ros2_sb/install/self_balancing_bot/lib/python3.12/site-packages/self_balancing_bot-0.0.0-py3.12.egg-info' (and everything under it)
+[10.201s] Copying ../../build/self_balancing_bot/self_balancing_bot.egg-info to /home/salma/ros2_sb/install/self_balancing_bot/lib/python3.12/site-packages/self_balancing_bot-0.0.0-py3.12.egg-info
+[10.208s] running install_scripts
+[11.166s] Installing balance_controller script to /home/salma/ros2_sb/install/self_balancing_bot/lib/self_balancing_bot
+[11.167s] Installing dynamic_tf_publisher script to /home/salma/ros2_sb/install/self_balancing_bot/lib/self_balancing_bot
+[11.168s] Installing static_map_publisher script to /home/salma/ros2_sb/install/self_balancing_bot/lib/self_balancing_bot
+[11.170s] writing list of installed files to '/home/salma/ros2_sb/build/self_balancing_bot/install.log'
+[11.308s] Invoked command in '/home/salma/ros2_sb/src/self_balancing_bot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/salma/ros2_sb/build/self_balancing_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/salma/ros2_sb/install/self_balancing_bot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/self_balancing_bot build --build-base /home/salma/ros2_sb/build/self_balancing_bot/build install --record /home/salma/ros2_sb/build/self_balancing_bot/install.log --single-version-externally-managed install_data

@@ -1,0 +1,33 @@
+[5.929s] Invoking command in '/home/salma/ros2_sb/src/tf_transformations': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/salma/ros2_sb/build/tf_transformations/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/salma/ros2_sb/install/tf_transformations/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tf_transformations build --build-base /home/salma/ros2_sb/build/tf_transformations/build install --record /home/salma/ros2_sb/build/tf_transformations/install.log --single-version-externally-managed install_data
+[7.443s] running egg_info
+[7.444s] creating ../../build/tf_transformations/tf_transformations.egg-info
+[7.559s] writing ../../build/tf_transformations/tf_transformations.egg-info/PKG-INFO
+[7.559s] writing dependency_links to ../../build/tf_transformations/tf_transformations.egg-info/dependency_links.txt
+[7.560s] writing requirements to ../../build/tf_transformations/tf_transformations.egg-info/requires.txt
+[7.561s] writing top-level names to ../../build/tf_transformations/tf_transformations.egg-info/top_level.txt
+[7.561s] writing manifest file '../../build/tf_transformations/tf_transformations.egg-info/SOURCES.txt'
+[7.808s] reading manifest file '../../build/tf_transformations/tf_transformations.egg-info/SOURCES.txt'
+[7.809s] adding license file 'LICENSE'
+[7.812s] writing manifest file '../../build/tf_transformations/tf_transformations.egg-info/SOURCES.txt'
+[7.814s] running build
+[7.814s] running build_py
+[7.816s] creating /home/salma/ros2_sb/build/tf_transformations/build
+[7.816s] creating /home/salma/ros2_sb/build/tf_transformations/build/lib
+[7.817s] creating /home/salma/ros2_sb/build/tf_transformations/build/lib/tf_transformations
+[7.818s] copying tf_transformations/__init__.py -> /home/salma/ros2_sb/build/tf_transformations/build/lib/tf_transformations
+[7.819s] running install
+[7.857s] running install_lib
+[8.013s] creating /home/salma/ros2_sb/install/tf_transformations/lib/python3.12/site-packages/tf_transformations
+[8.013s] copying /home/salma/ros2_sb/build/tf_transformations/build/lib/tf_transformations/__init__.py -> /home/salma/ros2_sb/install/tf_transformations/lib/python3.12/site-packages/tf_transformations
+[8.017s] byte-compiling /home/salma/ros2_sb/install/tf_transformations/lib/python3.12/site-packages/tf_transformations/__init__.py to __init__.cpython-312.pyc
+[8.063s] running install_data
+[8.065s] creating /home/salma/ros2_sb/install/tf_transformations/share/ament_index
+[8.066s] creating /home/salma/ros2_sb/install/tf_transformations/share/ament_index/resource_index
+[8.067s] creating /home/salma/ros2_sb/install/tf_transformations/share/ament_index/resource_index/packages
+[8.068s] copying resource/tf_transformations -> /home/salma/ros2_sb/install/tf_transformations/share/ament_index/resource_index/packages
+[8.068s] copying package.xml -> /home/salma/ros2_sb/install/tf_transformations/share/tf_transformations
+[8.068s] running install_egg_info
+[8.259s] Copying ../../build/tf_transformations/tf_transformations.egg-info to /home/salma/ros2_sb/install/tf_transformations/lib/python3.12/site-packages/tf_transformations-1.1.0-py3.12.egg-info
+[8.263s] running install_scripts
+[9.192s] writing list of installed files to '/home/salma/ros2_sb/build/tf_transformations/install.log'
+[9.349s] Invoked command in '/home/salma/ros2_sb/src/tf_transformations' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/salma/ros2_sb/build/tf_transformations/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/salma/ros2_sb/install/tf_transformations/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tf_transformations build --build-base /home/salma/ros2_sb/build/tf_transformations/build install --record /home/salma/ros2_sb/build/tf_transformations/install.log --single-version-externally-managed install_data

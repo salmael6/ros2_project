@@ -1,0 +1,4 @@
+[console_scripts]
+astar_planner_node = maze_navigator.astar_planner_node:main
+occupancy_grid_node = maze_navigator.occupancy_grid_node:main
+path_follower_node = maze_navigator.path_follower_node:main

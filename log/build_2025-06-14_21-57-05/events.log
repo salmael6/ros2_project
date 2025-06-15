@@ -1,0 +1,200 @@
+[0.000000] (-) TimerEvent: {}
+[0.000501] (maze_navigator) JobQueued: {'identifier': 'maze_navigator', 'dependencies': OrderedDict()}
+[0.000691] (self_balancing_bot) JobQueued: {'identifier': 'self_balancing_bot', 'dependencies': OrderedDict()}
+[0.000807] (tf_transformations) JobQueued: {'identifier': 'tf_transformations', 'dependencies': OrderedDict()}
+[0.003114] (maze_navigator) JobStarted: {'identifier': 'maze_navigator'}
+[0.055870] (self_balancing_bot) JobStarted: {'identifier': 'self_balancing_bot'}
+[0.080384] (tf_transformations) JobStarted: {'identifier': 'tf_transformations'}
+[0.098986] (-) TimerEvent: {}
+[0.199935] (-) TimerEvent: {}
+[0.300781] (-) TimerEvent: {}
+[0.401684] (-) TimerEvent: {}
+[0.502577] (-) TimerEvent: {}
+[0.603244] (-) TimerEvent: {}
+[0.704065] (-) TimerEvent: {}
+[0.804785] (-) TimerEvent: {}
+[0.905595] (-) TimerEvent: {}
+[1.006207] (-) TimerEvent: {}
+[1.106996] (-) TimerEvent: {}
+[1.207781] (-) TimerEvent: {}
+[1.309129] (-) TimerEvent: {}
+[1.409936] (-) TimerEvent: {}
+[1.510547] (-) TimerEvent: {}
+[1.611131] (-) TimerEvent: {}
+[1.711729] (-) TimerEvent: {}
+[1.812355] (-) TimerEvent: {}
+[1.912956] (-) TimerEvent: {}
+[2.013699] (-) TimerEvent: {}
+[2.114317] (-) TimerEvent: {}
+[2.214916] (-) TimerEvent: {}
+[2.315516] (-) TimerEvent: {}
+[2.416218] (-) TimerEvent: {}
+[2.516927] (-) TimerEvent: {}
+[2.617573] (-) TimerEvent: {}
+[2.718351] (-) TimerEvent: {}
+[2.818988] (-) TimerEvent: {}
+[2.919670] (-) TimerEvent: {}
+[3.020462] (-) TimerEvent: {}
+[3.121134] (-) TimerEvent: {}
+[3.221906] (-) TimerEvent: {}
+[3.322717] (-) TimerEvent: {}
+[3.423535] (-) TimerEvent: {}
+[3.524234] (-) TimerEvent: {}
+[3.625046] (-) TimerEvent: {}
+[3.726157] (-) TimerEvent: {}
+[3.826793] (-) TimerEvent: {}
+[3.927670] (-) TimerEvent: {}
+[4.028489] (-) TimerEvent: {}
+[4.129350] (-) TimerEvent: {}
+[4.230176] (-) TimerEvent: {}
+[4.330910] (-) TimerEvent: {}
+[4.431684] (-) TimerEvent: {}
+[4.532404] (-) TimerEvent: {}
+[4.633169] (-) TimerEvent: {}
+[4.734229] (-) TimerEvent: {}
+[4.835118] (-) TimerEvent: {}
+[4.937097] (-) TimerEvent: {}
+[5.037728] (-) TimerEvent: {}
+[5.138298] (-) TimerEvent: {}
+[5.238955] (-) TimerEvent: {}
+[5.339536] (-) TimerEvent: {}
+[5.440167] (-) TimerEvent: {}
+[5.540977] (-) TimerEvent: {}
+[5.641753] (-) TimerEvent: {}
+[5.742489] (-) TimerEvent: {}
+[5.843486] (-) TimerEvent: {}
+[5.944251] (-) TimerEvent: {}
+[6.045067] (-) TimerEvent: {}
+[6.145772] (-) TimerEvent: {}
+[6.246524] (-) TimerEvent: {}
+[6.347381] (-) TimerEvent: {}
+[6.448374] (-) TimerEvent: {}
+[6.549272] (-) TimerEvent: {}
+[6.650161] (-) TimerEvent: {}
+[6.751055] (-) TimerEvent: {}
+[6.852863] (-) TimerEvent: {}
+[6.953795] (-) TimerEvent: {}
+[7.054874] (-) TimerEvent: {}
+[7.155793] (-) TimerEvent: {}
+[7.256572] (-) TimerEvent: {}
+[7.357524] (-) TimerEvent: {}
+[7.368785] (tf_transformations) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/tf_transformations', 'build', '--build-base', '/home/salma/ros2_sb/build/tf_transformations/build', 'install', '--record', '/home/salma/ros2_sb/build/tf_transformations/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/salma/ros2_sb/src/tf_transformations', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': ':/home/salma/ros2_ws/src/self_balancing_bot/bd1_bot_description', 'USER': 'salma', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/salma', 'OLDPWD': '/home/salma', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2084', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/salma/ros2_sb/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'salma', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'salma', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/salma/.gazebo/models:/home/salma/my_gz_models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/salma-Latitude-7490:@/tmp/.ICE-unix/2053,unix/salma-Latitude-7490:/tmp/.ICE-unix/2053', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d806903e_e70f_4028_bfa1_099af1cdaab8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.H1GM72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.176', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/salma/ros2_sb/install/tf_transformations:/home/salma/ros2_sb/install/self_balancing_bot:/home/salma/ros2_sb/install/maze_navigator:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/salma/ros2_sb/build/tf_transformations', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/salma/ros2_sb/build/tf_transformations/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/salma/ros2_sb/install/tf_transformations/lib/python3.12/site-packages:/home/salma/ros2_sb/install/tf_transformations/lib/python3.12/site-packages:/home/salma/ros2_sb/install/self_balancing_bot/lib/python3.12/site-packages:/home/salma/ros2_sb/install/maze_navigator/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[7.408101] (maze_navigator) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/maze_navigator', 'build', '--build-base', '/home/salma/ros2_sb/build/maze_navigator/build', 'install', '--record', '/home/salma/ros2_sb/build/maze_navigator/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/salma/ros2_sb/src/maze_navigator', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': ':/home/salma/ros2_ws/src/self_balancing_bot/bd1_bot_description', 'USER': 'salma', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/salma', 'OLDPWD': '/home/salma', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2084', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/salma/ros2_sb/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'salma', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'salma', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/salma/.gazebo/models:/home/salma/my_gz_models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/salma-Latitude-7490:@/tmp/.ICE-unix/2053,unix/salma-Latitude-7490:/tmp/.ICE-unix/2053', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d806903e_e70f_4028_bfa1_099af1cdaab8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.H1GM72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.176', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/salma/ros2_sb/install/tf_transformations:/home/salma/ros2_sb/install/self_balancing_bot:/home/salma/ros2_sb/install/maze_navigator:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/salma/ros2_sb/build/maze_navigator', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/salma/ros2_sb/build/maze_navigator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/salma/ros2_sb/install/maze_navigator/lib/python3.12/site-packages:/home/salma/ros2_sb/install/tf_transformations/lib/python3.12/site-packages:/home/salma/ros2_sb/install/self_balancing_bot/lib/python3.12/site-packages:/home/salma/ros2_sb/install/maze_navigator/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[7.457793] (-) TimerEvent: {}
+[7.558797] (self_balancing_bot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/self_balancing_bot', 'build', '--build-base', '/home/salma/ros2_sb/build/self_balancing_bot/build', 'install', '--record', '/home/salma/ros2_sb/build/self_balancing_bot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/salma/ros2_sb/src/self_balancing_bot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': ':/home/salma/ros2_ws/src/self_balancing_bot/bd1_bot_description', 'USER': 'salma', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/salma', 'OLDPWD': '/home/salma', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2084', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/salma/ros2_sb/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'salma', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'salma', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/salma/.gazebo/models:/home/salma/my_gz_models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/salma-Latitude-7490:@/tmp/.ICE-unix/2053,unix/salma-Latitude-7490:/tmp/.ICE-unix/2053', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d806903e_e70f_4028_bfa1_099af1cdaab8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.H1GM72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.176', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/salma/ros2_sb/install/tf_transformations:/home/salma/ros2_sb/install/self_balancing_bot:/home/salma/ros2_sb/install/maze_navigator:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/salma/ros2_sb/build/self_balancing_bot', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/salma/ros2_sb/build/self_balancing_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/salma/ros2_sb/install/self_balancing_bot/lib/python3.12/site-packages:/home/salma/ros2_sb/install/tf_transformations/lib/python3.12/site-packages:/home/salma/ros2_sb/install/self_balancing_bot/lib/python3.12/site-packages:/home/salma/ros2_sb/install/maze_navigator/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[7.569135] (-) TimerEvent: {}
+[7.670026] (-) TimerEvent: {}
+[7.770735] (-) TimerEvent: {}
+[7.871513] (-) TimerEvent: {}
+[7.972401] (-) TimerEvent: {}
+[8.073220] (-) TimerEvent: {}
+[8.174100] (-) TimerEvent: {}
+[8.275163] (-) TimerEvent: {}
+[8.375962] (-) TimerEvent: {}
+[8.476740] (-) TimerEvent: {}
+[8.577828] (-) TimerEvent: {}
+[8.678717] (-) TimerEvent: {}
+[8.779509] (-) TimerEvent: {}
+[8.880392] (-) TimerEvent: {}
+[8.981173] (-) TimerEvent: {}
+[9.081956] (-) TimerEvent: {}
+[9.182710] (-) TimerEvent: {}
+[9.283442] (-) TimerEvent: {}
+[9.292522] (maze_navigator) StdoutLine: {'line': b'running egg_info\n'}
+[9.374112] (tf_transformations) StdoutLine: {'line': b'running egg_info\n'}
+[9.383612] (-) TimerEvent: {}
+[9.417830] (maze_navigator) StdoutLine: {'line': b'writing ../../build/maze_navigator/maze_navigator.egg-info/PKG-INFO\n'}
+[9.419124] (maze_navigator) StdoutLine: {'line': b'writing dependency_links to ../../build/maze_navigator/maze_navigator.egg-info/dependency_links.txt\n'}
+[9.420195] (maze_navigator) StdoutLine: {'line': b'writing entry points to ../../build/maze_navigator/maze_navigator.egg-info/entry_points.txt\n'}
+[9.421126] (maze_navigator) StdoutLine: {'line': b'writing requirements to ../../build/maze_navigator/maze_navigator.egg-info/requires.txt\n'}
+[9.422069] (maze_navigator) StdoutLine: {'line': b'writing top-level names to ../../build/maze_navigator/maze_navigator.egg-info/top_level.txt\n'}
+[9.483771] (-) TimerEvent: {}
+[9.502825] (tf_transformations) StdoutLine: {'line': b'writing ../../build/tf_transformations/tf_transformations.egg-info/PKG-INFO\n'}
+[9.504230] (tf_transformations) StdoutLine: {'line': b'writing dependency_links to ../../build/tf_transformations/tf_transformations.egg-info/dependency_links.txt\n'}
+[9.505218] (tf_transformations) StdoutLine: {'line': b'writing requirements to ../../build/tf_transformations/tf_transformations.egg-info/requires.txt\n'}
+[9.506776] (tf_transformations) StdoutLine: {'line': b'writing top-level names to ../../build/tf_transformations/tf_transformations.egg-info/top_level.txt\n'}
+[9.557480] (self_balancing_bot) StdoutLine: {'line': b'running egg_info\n'}
+[9.583973] (-) TimerEvent: {}
+[9.684789] (-) TimerEvent: {}
+[9.694478] (maze_navigator) StdoutLine: {'line': b"reading manifest file '../../build/maze_navigator/maze_navigator.egg-info/SOURCES.txt'\n"}
+[9.696346] (self_balancing_bot) StdoutLine: {'line': b'writing ../../build/self_balancing_bot/self_balancing_bot.egg-info/PKG-INFO\n'}
+[9.697496] (self_balancing_bot) StdoutLine: {'line': b'writing dependency_links to ../../build/self_balancing_bot/self_balancing_bot.egg-info/dependency_links.txt\n'}
+[9.698602] (maze_navigator) StdoutLine: {'line': b"writing manifest file '../../build/maze_navigator/maze_navigator.egg-info/SOURCES.txt'\n"}
+[9.699690] (self_balancing_bot) StdoutLine: {'line': b'writing entry points to ../../build/self_balancing_bot/self_balancing_bot.egg-info/entry_points.txt\n'}
+[9.701338] (maze_navigator) StdoutLine: {'line': b'running build\n'}
+[9.702144] (maze_navigator) StdoutLine: {'line': b'running build_py\n'}
+[9.703196] (self_balancing_bot) StdoutLine: {'line': b'writing requirements to ../../build/self_balancing_bot/self_balancing_bot.egg-info/requires.txt\n'}
+[9.704039] (self_balancing_bot) StdoutLine: {'line': b'writing top-level names to ../../build/self_balancing_bot/self_balancing_bot.egg-info/top_level.txt\n'}
+[9.704822] (maze_navigator) StdoutLine: {'line': b'copying maze_navigator/path_follower_node.py -> /home/salma/ros2_sb/build/maze_navigator/build/lib/maze_navigator\n'}
+[9.705826] (maze_navigator) StdoutLine: {'line': b'running install\n'}
+[9.738872] (maze_navigator) StdoutLine: {'line': b'running install_lib\n'}
+[9.784996] (-) TimerEvent: {}
+[9.811991] (tf_transformations) StdoutLine: {'line': b"reading manifest file '../../build/tf_transformations/tf_transformations.egg-info/SOURCES.txt'\n"}
+[9.813902] (tf_transformations) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[9.817101] (tf_transformations) StdoutLine: {'line': b"writing manifest file '../../build/tf_transformations/tf_transformations.egg-info/SOURCES.txt'\n"}
+[9.818396] (tf_transformations) StdoutLine: {'line': b'running build\n'}
+[9.819235] (tf_transformations) StdoutLine: {'line': b'running build_py\n'}
+[9.820200] (tf_transformations) StdoutLine: {'line': b'running install\n'}
+[9.861865] (tf_transformations) StdoutLine: {'line': b'running install_lib\n'}
+[9.885196] (-) TimerEvent: {}
+[9.898697] (maze_navigator) StdoutLine: {'line': b'copying /home/salma/ros2_sb/build/maze_navigator/build/lib/maze_navigator/path_follower_node.py -> /home/salma/ros2_sb/install/maze_navigator/lib/python3.12/site-packages/maze_navigator\n'}
+[9.903570] (maze_navigator) StdoutLine: {'line': b'byte-compiling /home/salma/ros2_sb/install/maze_navigator/lib/python3.12/site-packages/maze_navigator/path_follower_node.py to path_follower_node.cpython-312.pyc\n'}
+[9.910535] (maze_navigator) StdoutLine: {'line': b'running install_data\n'}
+[9.911831] (maze_navigator) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.985397] (-) TimerEvent: {}
+[10.011799] (self_balancing_bot) StdoutLine: {'line': b"reading manifest file '../../build/self_balancing_bot/self_balancing_bot.egg-info/SOURCES.txt'\n"}
+[10.014140] (self_balancing_bot) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[10.017159] (self_balancing_bot) StdoutLine: {'line': b"writing manifest file '../../build/self_balancing_bot/self_balancing_bot.egg-info/SOURCES.txt'\n"}
+[10.018386] (self_balancing_bot) StdoutLine: {'line': b'running build\n'}
+[10.019167] (self_balancing_bot) StdoutLine: {'line': b'running build_py\n'}
+[10.020954] (self_balancing_bot) StdoutLine: {'line': b'copying self_balancing_bot/path_publisher.py -> /home/salma/ros2_sb/build/self_balancing_bot/build/lib/self_balancing_bot\n'}
+[10.022517] (self_balancing_bot) StdoutLine: {'line': b'running install\n'}
+[10.027768] (tf_transformations) StdoutLine: {'line': b'running install_data\n'}
+[10.028927] (tf_transformations) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.064310] (self_balancing_bot) StdoutLine: {'line': b'running install_lib\n'}
+[10.085812] (-) TimerEvent: {}
+[10.126526] (maze_navigator) StdoutLine: {'line': b"removing '/home/salma/ros2_sb/install/maze_navigator/lib/python3.12/site-packages/maze_navigator-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[10.128223] (maze_navigator) StdoutLine: {'line': b'Copying ../../build/maze_navigator/maze_navigator.egg-info to /home/salma/ros2_sb/install/maze_navigator/lib/python3.12/site-packages/maze_navigator-0.0.0-py3.12.egg-info\n'}
+[10.133349] (maze_navigator) StdoutLine: {'line': b'running install_scripts\n'}
+[10.181742] (tf_transformations) StdoutLine: {'line': b"removing '/home/salma/ros2_sb/install/tf_transformations/lib/python3.12/site-packages/tf_transformations-1.1.0-py3.12.egg-info' (and everything under it)\n"}
+[10.182843] (tf_transformations) StdoutLine: {'line': b'Copying ../../build/tf_transformations/tf_transformations.egg-info to /home/salma/ros2_sb/install/tf_transformations/lib/python3.12/site-packages/tf_transformations-1.1.0-py3.12.egg-info\n'}
+[10.185994] (-) TimerEvent: {}
+[10.187086] (tf_transformations) StdoutLine: {'line': b'running install_scripts\n'}
+[10.212119] (self_balancing_bot) StdoutLine: {'line': b'copying /home/salma/ros2_sb/build/self_balancing_bot/build/lib/self_balancing_bot/path_publisher.py -> /home/salma/ros2_sb/install/self_balancing_bot/lib/python3.12/site-packages/self_balancing_bot\n'}
+[10.215768] (self_balancing_bot) StdoutLine: {'line': b'byte-compiling /home/salma/ros2_sb/install/self_balancing_bot/lib/python3.12/site-packages/self_balancing_bot/path_publisher.py to path_publisher.cpython-312.pyc\n'}
+[10.219620] (self_balancing_bot) StdoutLine: {'line': b'running install_data\n'}
+[10.220770] (self_balancing_bot) StdoutLine: {'line': b'copying launch/gazebo_bridge.launch.py -> /home/salma/ros2_sb/install/self_balancing_bot/share/self_balancing_bot/launch\n'}
+[10.222987] (self_balancing_bot) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.286204] (-) TimerEvent: {}
+[10.377869] (self_balancing_bot) StdoutLine: {'line': b"removing '/home/salma/ros2_sb/install/self_balancing_bot/lib/python3.12/site-packages/self_balancing_bot-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[10.379692] (self_balancing_bot) StdoutLine: {'line': b'Copying ../../build/self_balancing_bot/self_balancing_bot.egg-info to /home/salma/ros2_sb/install/self_balancing_bot/lib/python3.12/site-packages/self_balancing_bot-0.0.0-py3.12.egg-info\n'}
+[10.384807] (self_balancing_bot) StdoutLine: {'line': b'running install_scripts\n'}
+[10.386394] (-) TimerEvent: {}
+[10.487173] (-) TimerEvent: {}
+[10.587943] (-) TimerEvent: {}
+[10.688792] (-) TimerEvent: {}
+[10.789709] (-) TimerEvent: {}
+[10.890588] (-) TimerEvent: {}
+[10.991551] (-) TimerEvent: {}
+[11.078415] (maze_navigator) StdoutLine: {'line': b'Installing astar_planner_node script to /home/salma/ros2_sb/install/maze_navigator/lib/maze_navigator\n'}
+[11.079607] (maze_navigator) StdoutLine: {'line': b'Installing occupancy_grid_node script to /home/salma/ros2_sb/install/maze_navigator/lib/maze_navigator\n'}
+[11.080702] (maze_navigator) StdoutLine: {'line': b'Installing path_follower_node script to /home/salma/ros2_sb/install/maze_navigator/lib/maze_navigator\n'}
+[11.082082] (maze_navigator) StdoutLine: {'line': b"writing list of installed files to '/home/salma/ros2_sb/build/maze_navigator/install.log'\n"}
+[11.091762] (-) TimerEvent: {}
+[11.144103] (tf_transformations) StdoutLine: {'line': b"writing list of installed files to '/home/salma/ros2_sb/build/tf_transformations/install.log'\n"}
+[11.191945] (-) TimerEvent: {}
+[11.242853] (maze_navigator) CommandEnded: {'returncode': 0}
+[11.290976] (maze_navigator) JobEnded: {'identifier': 'maze_navigator', 'rc': 0}
+[11.294213] (-) TimerEvent: {}
+[11.297451] (tf_transformations) CommandEnded: {'returncode': 0}
+[11.331530] (tf_transformations) JobEnded: {'identifier': 'tf_transformations', 'rc': 0}
+[11.359398] (self_balancing_bot) StdoutLine: {'line': b'Installing balance_controller script to /home/salma/ros2_sb/install/self_balancing_bot/lib/self_balancing_bot\n'}
+[11.360199] (self_balancing_bot) StdoutLine: {'line': b'Installing dynamic_tf_publisher script to /home/salma/ros2_sb/install/self_balancing_bot/lib/self_balancing_bot\n'}
+[11.360946] (self_balancing_bot) StdoutLine: {'line': b'Installing path_publisher script to /home/salma/ros2_sb/install/self_balancing_bot/lib/self_balancing_bot\n'}
+[11.361594] (self_balancing_bot) StdoutLine: {'line': b'Installing static_map_publisher script to /home/salma/ros2_sb/install/self_balancing_bot/lib/self_balancing_bot\n'}
+[11.362963] (self_balancing_bot) StdoutLine: {'line': b"writing list of installed files to '/home/salma/ros2_sb/build/self_balancing_bot/install.log'\n"}
+[11.394435] (-) TimerEvent: {}
+[11.480678] (self_balancing_bot) CommandEnded: {'returncode': 0}
+[11.496718] (-) TimerEvent: {}
+[11.509265] (self_balancing_bot) JobEnded: {'identifier': 'self_balancing_bot', 'rc': 0}
+[11.512231] (-) EventReactorShutdown: {}

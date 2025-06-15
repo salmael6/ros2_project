@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: tf-transformations
+Version: 1.1.0
+Summary: Reimplementation of the tf/transformations.py library
+Maintainer: David V. Lu!!
+Maintainer-email: davidvlu@gmail.com
+License: BSD
+License-File: LICENSE

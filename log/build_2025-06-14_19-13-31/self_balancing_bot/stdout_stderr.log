@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/self_balancing_bot/self_balancing_bot.egg-info/PKG-INFO
+writing dependency_links to ../../build/self_balancing_bot/self_balancing_bot.egg-info/dependency_links.txt
+writing entry points to ../../build/self_balancing_bot/self_balancing_bot.egg-info/entry_points.txt
+writing requirements to ../../build/self_balancing_bot/self_balancing_bot.egg-info/requires.txt
+writing top-level names to ../../build/self_balancing_bot/self_balancing_bot.egg-info/top_level.txt
+reading manifest file '../../build/self_balancing_bot/self_balancing_bot.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/self_balancing_bot/self_balancing_bot.egg-info/SOURCES.txt'
+running build
+running build_py
+copying self_balancing_bot/balance_controller.py -> /home/salma/ros2_sb/build/self_balancing_bot/build/lib/self_balancing_bot
+running install
+running install_lib
+copying /home/salma/ros2_sb/build/self_balancing_bot/build/lib/self_balancing_bot/balance_controller.py -> /home/salma/ros2_sb/install/self_balancing_bot/lib/python3.12/site-packages/self_balancing_bot
+byte-compiling /home/salma/ros2_sb/install/self_balancing_bot/lib/python3.12/site-packages/self_balancing_bot/balance_controller.py to balance_controller.cpython-312.pyc
+running install_data
+copying urdf/self_balancing_bot.sdf -> /home/salma/ros2_sb/install/self_balancing_bot/share/self_balancing_bot/urdf
+running install_egg_info
+removing '/home/salma/ros2_sb/install/self_balancing_bot/lib/python3.12/site-packages/self_balancing_bot-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/self_balancing_bot/self_balancing_bot.egg-info to /home/salma/ros2_sb/install/self_balancing_bot/lib/python3.12/site-packages/self_balancing_bot-0.0.0-py3.12.egg-info
+running install_scripts
+Installing balance_controller script to /home/salma/ros2_sb/install/self_balancing_bot/lib/self_balancing_bot
+Installing dynamic_tf_publisher script to /home/salma/ros2_sb/install/self_balancing_bot/lib/self_balancing_bot
+Installing static_map_publisher script to /home/salma/ros2_sb/install/self_balancing_bot/lib/self_balancing_bot
+writing list of installed files to '/home/salma/ros2_sb/build/self_balancing_bot/install.log'

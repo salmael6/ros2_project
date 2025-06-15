@@ -1,0 +1,43 @@
+running egg_info
+creating ../../build/maze_navigator/maze_navigator.egg-info
+writing ../../build/maze_navigator/maze_navigator.egg-info/PKG-INFO
+writing dependency_links to ../../build/maze_navigator/maze_navigator.egg-info/dependency_links.txt
+writing entry points to ../../build/maze_navigator/maze_navigator.egg-info/entry_points.txt
+writing requirements to ../../build/maze_navigator/maze_navigator.egg-info/requires.txt
+writing top-level names to ../../build/maze_navigator/maze_navigator.egg-info/top_level.txt
+writing manifest file '../../build/maze_navigator/maze_navigator.egg-info/SOURCES.txt'
+reading manifest file '../../build/maze_navigator/maze_navigator.egg-info/SOURCES.txt'
+writing manifest file '../../build/maze_navigator/maze_navigator.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/salma/ros2_sb/build/maze_navigator/build
+creating /home/salma/ros2_sb/build/maze_navigator/build/lib
+creating /home/salma/ros2_sb/build/maze_navigator/build/lib/maze_navigator
+copying maze_navigator/occupancy_grid_node.py -> /home/salma/ros2_sb/build/maze_navigator/build/lib/maze_navigator
+copying maze_navigator/path_follower_node.py -> /home/salma/ros2_sb/build/maze_navigator/build/lib/maze_navigator
+copying maze_navigator/__init__.py -> /home/salma/ros2_sb/build/maze_navigator/build/lib/maze_navigator
+copying maze_navigator/astar_planner_node.py -> /home/salma/ros2_sb/build/maze_navigator/build/lib/maze_navigator
+running install
+running install_lib
+creating /home/salma/ros2_sb/install/maze_navigator/lib/python3.12/site-packages/maze_navigator
+copying /home/salma/ros2_sb/build/maze_navigator/build/lib/maze_navigator/occupancy_grid_node.py -> /home/salma/ros2_sb/install/maze_navigator/lib/python3.12/site-packages/maze_navigator
+copying /home/salma/ros2_sb/build/maze_navigator/build/lib/maze_navigator/path_follower_node.py -> /home/salma/ros2_sb/install/maze_navigator/lib/python3.12/site-packages/maze_navigator
+copying /home/salma/ros2_sb/build/maze_navigator/build/lib/maze_navigator/__init__.py -> /home/salma/ros2_sb/install/maze_navigator/lib/python3.12/site-packages/maze_navigator
+copying /home/salma/ros2_sb/build/maze_navigator/build/lib/maze_navigator/astar_planner_node.py -> /home/salma/ros2_sb/install/maze_navigator/lib/python3.12/site-packages/maze_navigator
+byte-compiling /home/salma/ros2_sb/install/maze_navigator/lib/python3.12/site-packages/maze_navigator/occupancy_grid_node.py to occupancy_grid_node.cpython-312.pyc
+byte-compiling /home/salma/ros2_sb/install/maze_navigator/lib/python3.12/site-packages/maze_navigator/path_follower_node.py to path_follower_node.cpython-312.pyc
+byte-compiling /home/salma/ros2_sb/install/maze_navigator/lib/python3.12/site-packages/maze_navigator/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/salma/ros2_sb/install/maze_navigator/lib/python3.12/site-packages/maze_navigator/astar_planner_node.py to astar_planner_node.cpython-312.pyc
+running install_data
+creating /home/salma/ros2_sb/install/maze_navigator/share/ament_index
+creating /home/salma/ros2_sb/install/maze_navigator/share/ament_index/resource_index
+creating /home/salma/ros2_sb/install/maze_navigator/share/ament_index/resource_index/packages
+copying resource/maze_navigator -> /home/salma/ros2_sb/install/maze_navigator/share/ament_index/resource_index/packages
+copying package.xml -> /home/salma/ros2_sb/install/maze_navigator/share/maze_navigator
+running install_egg_info
+Copying ../../build/maze_navigator/maze_navigator.egg-info to /home/salma/ros2_sb/install/maze_navigator/lib/python3.12/site-packages/maze_navigator-0.0.0-py3.12.egg-info
+running install_scripts
+Installing astar_planner_node script to /home/salma/ros2_sb/install/maze_navigator/lib/maze_navigator
+Installing occupancy_grid_node script to /home/salma/ros2_sb/install/maze_navigator/lib/maze_navigator
+Installing path_follower_node script to /home/salma/ros2_sb/install/maze_navigator/lib/maze_navigator
+writing list of installed files to '/home/salma/ros2_sb/build/maze_navigator/install.log'

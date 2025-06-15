@@ -1,0 +1,20 @@
+[7.301s] Invoking command in '/home/salma/ros2_sb/src/tf_transformations': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/salma/ros2_sb/build/tf_transformations/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/salma/ros2_sb/install/tf_transformations/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tf_transformations build --build-base /home/salma/ros2_sb/build/tf_transformations/build install --record /home/salma/ros2_sb/build/tf_transformations/install.log --single-version-externally-managed install_data
+[9.294s] running egg_info
+[9.422s] writing ../../build/tf_transformations/tf_transformations.egg-info/PKG-INFO
+[9.424s] writing dependency_links to ../../build/tf_transformations/tf_transformations.egg-info/dependency_links.txt
+[9.424s] writing requirements to ../../build/tf_transformations/tf_transformations.egg-info/requires.txt
+[9.426s] writing top-level names to ../../build/tf_transformations/tf_transformations.egg-info/top_level.txt
+[9.732s] reading manifest file '../../build/tf_transformations/tf_transformations.egg-info/SOURCES.txt'
+[9.733s] adding license file 'LICENSE'
+[9.737s] writing manifest file '../../build/tf_transformations/tf_transformations.egg-info/SOURCES.txt'
+[9.738s] running build
+[9.739s] running build_py
+[9.739s] running install
+[9.781s] running install_lib
+[9.947s] running install_data
+[9.948s] running install_egg_info
+[10.101s] removing '/home/salma/ros2_sb/install/tf_transformations/lib/python3.12/site-packages/tf_transformations-1.1.0-py3.12.egg-info' (and everything under it)
+[10.102s] Copying ../../build/tf_transformations/tf_transformations.egg-info to /home/salma/ros2_sb/install/tf_transformations/lib/python3.12/site-packages/tf_transformations-1.1.0-py3.12.egg-info
+[10.106s] running install_scripts
+[11.063s] writing list of installed files to '/home/salma/ros2_sb/build/tf_transformations/install.log'
+[11.217s] Invoked command in '/home/salma/ros2_sb/src/tf_transformations' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/salma/ros2_sb/build/tf_transformations/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/salma/ros2_sb/install/tf_transformations/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tf_transformations build --build-base /home/salma/ros2_sb/build/tf_transformations/build install --record /home/salma/ros2_sb/build/tf_transformations/install.log --single-version-externally-managed install_data
